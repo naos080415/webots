@@ -82,6 +82,9 @@ PROTO Khr3hv [
             maxPosition 2.356
             maxTorque 1.3729
           }
+          PositionSensor {
+            name "HeadS"
+          }
         ]
         endPoint Solid {
           translation -0.00395 0 0.0134
@@ -148,6 +151,9 @@ PROTO Khr3hv [
             maxPosition 2.356
             maxTorque 1.3729
           }
+          PositionSensor {
+            name "LeftShoulderS"
+          }
         ]
         endPoint Solid {
           translation -0.0041 0.04725 -0.0009
@@ -195,6 +201,9 @@ PROTO Khr3hv [
                   maxPosition 2.356
                   maxTorque 1.3729
                 }
+                PositionSensor {
+                  name "LeftArmS"
+                }
               ]
               endPoint Solid {
                 translation 0 0.02645 0
@@ -241,6 +250,9 @@ PROTO Khr3hv [
                         minPosition -2.356
                         maxPosition 2.356
                         maxTorque 1.3729
+                      }
+                      PositionSensor {
+                        name "LeftElbowS"
                       }
                     ]
                     endPoint Solid {
@@ -311,6 +323,9 @@ PROTO Khr3hv [
                               minPosition -2.356
                               maxPosition 2.356
                               maxTorque 1.3729
+                            }
+                            PositionSensor {
+                              name "LeftForearmS"
                             }
                           ]
                           endPoint Solid {
@@ -481,6 +496,9 @@ PROTO Khr3hv [
             maxPosition 2.356
             maxTorque 1.3729
           }
+          PositionSensor {
+            name "RightShoulderS"
+          }
         ]
         endPoint Solid {
           translation -0.0041 -0.0475 -0.0009
@@ -520,6 +538,9 @@ PROTO Khr3hv [
                   maxPosition 2.356
                   maxTorque 1.3729
                 }
+                PositionSensor {
+                  name "RightArmS"
+                }
               ]
               endPoint Solid {
                 translation 0 -0.02645 0
@@ -558,6 +579,9 @@ PROTO Khr3hv [
                         minPosition -2.356
                         maxPosition 2.356
                         maxTorque 1.3729
+                      }
+                      PositionSensor {
+                        name "RightElbowS"
                       }
                     ]
                     endPoint Solid {
@@ -620,6 +644,9 @@ PROTO Khr3hv [
                               minPosition -2.356
                               maxPosition 2.356
                               maxTorque 1.3729
+                            }
+                            PositionSensor {
+                              name "RightForearmS"
                             }
                           ]
                           endPoint Solid {
@@ -782,6 +809,9 @@ PROTO Khr3hv [
             maxPosition 2.356
             maxTorque 1.3729
           }
+          PositionSensor {
+            name "WaistS"
+          }
         ]
         endPoint Solid {
           translation -0.02425 0 -0.04715
@@ -828,6 +858,9 @@ PROTO Khr3hv [
                   minPosition -2.356
                   maxPosition 2.356
                   maxTorque 1.3729
+                }
+                PositionSensor {
+                  name "LeftFemurHead1S"
                 }
               ]
               endPoint Solid {
@@ -876,6 +909,9 @@ PROTO Khr3hv [
                         maxPosition 2.356
                         maxTorque 1.3729
                       }
+                      PositionSensor {
+                        name "LeftFemurHead2S"
+                      }
                     ]
                     endPoint Solid {
                       translation 0 -0.00455 -0.02235
@@ -922,6 +958,9 @@ PROTO Khr3hv [
                               minPosition -2.356
                               maxPosition 2.356
                               maxTorque 1.3729
+                            }
+                            PositionSensor {
+                              name "LeftFemurS"
                             }
                           ]
                           endPoint Solid {
@@ -970,6 +1009,9 @@ PROTO Khr3hv [
                                     maxPosition 2.356
                                     maxTorque 1.3729
                                   }
+                                  PositionSensor {
+                                    name "LeftCrusS"
+                                  }
                                 ]
                                 endPoint Solid {
                                   translation 0.00015 0.0 -0.06375
@@ -1017,6 +1059,9 @@ PROTO Khr3hv [
                                           maxPosition 2.356
                                           maxTorque 1.3729
                                         }
+                                        PositionSensor {
+                                          name "LeftAnkleS"
+                                        }
                                       ]
                                       endPoint Solid {
                                         translation 0.0003 -0.0002 -0.0643
@@ -1063,6 +1108,9 @@ PROTO Khr3hv [
                                                 minPosition -2.356
                                                 maxPosition 2.356
                                                 maxTorque 1.3729
+                                              }
+                                              PositionSensor {
+                                                name "LeftFootS"
                                               }
                                             ]
                                             endPoint Solid {
@@ -1288,6 +1336,9 @@ PROTO Khr3hv [
                   maxPosition 2.356
                   maxTorque 1.3729
                 }
+                PositionSensor {
+                  name "RightFemurHead1S"
+                }
               ]
               endPoint Solid {
                 translation 0.00875 -0.0215 -0.03995
@@ -1326,6 +1377,9 @@ PROTO Khr3hv [
                         minPosition -2.356
                         maxPosition 2.356
                         maxTorque 1.3729
+                      }
+                      PositionSensor {
+                        name "RightFemurHead2S"
                       }
                     ]
                     endPoint Solid {
@@ -1366,6 +1420,9 @@ PROTO Khr3hv [
                               maxPosition 2.356
                               maxTorque 1.3729
                             }
+                            PositionSensor {
+                              name "RightFemurS"
+                            }
                           ]
                           endPoint Solid {
                             translation -0.0008 -0.0113 -0.0387
@@ -1404,6 +1461,9 @@ PROTO Khr3hv [
                                     minPosition -2.356
                                     maxPosition 2.356
                                     maxTorque 1.3729
+                                  }
+                                  PositionSensor {
+                                    name "RightCrusS"
                                   }
                                 ]
                                 endPoint Solid {
@@ -1444,6 +1504,9 @@ PROTO Khr3hv [
                                           maxPosition 2.356
                                           maxTorque 1.3729
                                         }
+                                        PositionSensor {
+                                          name "RightAnkleS"
+                                        }
                                       ]
                                       endPoint Solid {
                                         translation 0.0003 0.0002 -0.0643
@@ -1482,6 +1545,9 @@ PROTO Khr3hv [
                                                 minPosition -2.356
                                                 maxPosition 2.356
                                                 maxTorque 1.3729
+                                              }
+                                              PositionSensor {
+                                                name "RightFootS"
                                               }
                                             ]
                                             endPoint Solid {
