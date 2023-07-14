@@ -912,6 +912,7 @@ PROTO Khr3hv [
                         }
                         DEF KHR3HV_LeftFemur HingeJoint {
                           jointParameters HingeJointParameters {
+                            axis 0 1 0
                             anchor -0.0008 0.0113 -0.0387
                           }
                           device [
@@ -958,6 +959,7 @@ PROTO Khr3hv [
                               }
                               DEF KHR3HV_LeftCrus HingeJoint {
                                 jointParameters HingeJointParameters {
+                                  axis 0 1 0
                                   anchor 0.00015 0.0 -0.06375
                                 }
                                 device [
@@ -1353,6 +1355,7 @@ PROTO Khr3hv [
                         }
                         DEF KHR3HV_RightFemur HingeJoint {
                           jointParameters HingeJointParameters {
+                            axis 0 1 0
                             anchor -0.0008 -0.0113 -0.0387
                           }
                           device [
@@ -1391,6 +1394,7 @@ PROTO Khr3hv [
                               }
                               DEF KHR3HV_RightCrus HingeJoint {
                                 jointParameters HingeJointParameters {
+                                  axis 0 1 0
                                   anchor 0.00015 0.0 -0.06375
                                 }
                                 device [
@@ -1429,6 +1433,7 @@ PROTO Khr3hv [
                                     }
                                     DEF KHR3HV_RightAnkle HingeJoint {
                                       jointParameters HingeJointParameters {
+                                        axis 0 1 0
                                         anchor 0.0003 0.0002 -0.0643
                                       }
                                       device [
